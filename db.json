@@ -1,0 +1,17 @@
+{
+  "clientes": [
+    {
+      "nombre": "qwe",
+      "apellido": "qwe",
+      "dni": "39270101",
+      "email": "harquin09@gmail.com",
+      "telefono": "123-123-123",
+      "empresa": "qwe",
+      "areaDeTrabajo": "Administración",
+      "puesto": "qwe",
+      "observaciones": "qwe",
+      "estado": 1,
+      "id": 1
+    }
+  ]
+}
