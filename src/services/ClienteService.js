@@ -17,7 +17,7 @@ export default {
     return api.patch("/clientes/" + id, estado);
   },
 
-  eliminarCliente({ id }) {
+  eliminarCliente(id) {
     return api.delete("/clientes/" + id);
   },
 };

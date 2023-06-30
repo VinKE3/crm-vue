@@ -38,7 +38,7 @@ const actualizarEstado = ({ id, estado }) => {
       console.log(error);
     });
 };
-const eliminarCliente = (id) => {
+const eliminarCliente = ({ id }) => {
   ClienteService.eliminarCliente(id)
     .then(() => {
       clientes.value = clientes.value.filter((cliente) => cliente.id !== id);
